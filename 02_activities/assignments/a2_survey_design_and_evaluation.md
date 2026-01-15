@@ -186,48 +186,52 @@ verify family relationships, and maintain proper questionnaire flow. Additionall
 validity checks and edits.
 
 10. Cleaning, Imputation, etc.
-Imputation was applied to handle item-level or partial non-response. In most cases, missing values were replaced using donor records selected through a scoring function: the characteristics of the recipient record were compared with potential donors, and the donor with the highest score provided the replacement data. If multiple donors shared the highest score, one was chosen at random. When donor imputation was not possible, mean values from a pool of donors were used.
+Imputation was applied to handle item-level or partial non-response. In most cases, missing values were replaced using
+donor records selected through a scoring function: the characteristics of the recipient record were compared with
+potential donors, and the donor with the highest score provided the replacement data. If multiple donors shared the
+highest score, one was chosen at random. When donor imputation was not possible, mean values from a pool of donors
+were used.
 The imputation process followed nine steps:
-Personal and family income
+1. Personal and family income
 2–4. Formal volunteering variables in the master file
 5–6. Informal volunteering variables in the master file
 7–9. Donation variables and solicitation methods in the master file
-For 2018, personal income was not collected directly through the survey. Instead, respondents’ data were linked to the 2017 T1 Family File (T1FF). Family income was obtained directly for 81.7% of households, while missing data for the remainder were imputed.
-Overall, the GSS imputation procedure ensured that incomplete responses were filled using data from similar respondents, thereby increasing the number of usable survey records for analysis.
+For 2018, personal income was not collected directly through the survey. Instead, respondents’ data were linked to the
+2017 T1 Family File (T1FF). Family income was obtained directly for 81.7% of households, while missing data for the
+remainder were imputed.
+Overall, the GSS imputation procedure ensured that incomplete responses were filled using data from similar respondents,
+thereby increasing the number of usable survey records for analysis.
 
 11. Sources of Error
+The survey is subject to both sampling and non-sampling errors.
+- Sampling error: This occurs because the results are based on a sample rather than a full census. Bootstrap weights
+were employed to estimate the variability due to sampling.
+- Non-sampling error: Encompasses coverage errors, non-response bias, response inaccuracies, and processing mistakes.
+- Coverage error: Despite improvements to the sampling frame, some under- or over-coverage of the population may still
+exist.
+- Non-response bias: Mitigated through weighting adjustments using auxiliary information such as income and household
+composition.
+- Response and processing errors: Minimized via interviewer training, pre-testing of the questionnaire, and automated
+quality control procedures.
 
-The survey is subject to sampling and non-sampling errors:
-
-Sampling error: Estimates based on a sample may vary from those that would have been obtained from a complete census; bootstrap weights are provided for variance estimation.
-
-Non-response error: The response rate and non-response at different stages could introduce bias, although weighting adjustments help to mitigate such bias.
-
-Coverage error: Some segments of the population may be under-covered by the frame.
-
-Measurement error: Misinterpretation of questions, mode effects, and other respondent-related issues.
 
 12. Limitations, Known Biases, etc.
+The survey findings may be affected by non-sampling errors, including coverage errors, non-response, response
+inaccuracies, and processing mistakes.
 
-Limitations and potential biases include:
+Coverage errors can arise when certain segments of the target population are excluded or underrepresented, such as
+households not included in the sampling frame.
 
-Non-response bias remains a concern even after weighting adjustments.
+Non-response bias may persist even after applying weighting adjustments. For the 2018 GSS, such adjustments were made
+using auxiliary information, including income and household composition, to account for non-responding households.
 
-Mode effects: The use of both online and CATI modes may influence responses in subtle ways.
+Additionally, the survey excludes residents of the territories and institutional populations, which limits the ability to
+generalize results to the entire national population.
 
-Comparisons across cycles may be limited due to changes in methodology and content (e.g., introduction of online mode in 2018).
-
-Exclusion of institutional residents and territories limits full national coverage.
 
 13. Links to Documentation and Additional Sources
+The documentation is available at this link: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234 
 
-Primary documentation:
-
-General Social Survey (Cycle 33): Giving, Volunteering and Participating Public Use Microdata File Documentation and User Guide, 2018 – Statistics Canada catalogue 45-25-0011.
-
-Survey description and methodology page – Statistics Canada.
-
-Archived release and tables – The Daily (Jan 26, 2021).
 ```
 
 ## Rubric
@@ -249,9 +253,9 @@ Archived release and tables – The Daily (Jan 26, 2021).
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] Create a branch called `assignment-2`.
-- [ ] Ensure that the repository is public.
-- [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
-- [ ] Verify that the link is accessible in a private browser window.
+- [x] Create a branch called `assignment-2`.
+- [x] Ensure that the repository is public.
+- [x] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
+- [x] Verify that the link is accessible in a private browser window.
 
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via the help channel in Slack. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
