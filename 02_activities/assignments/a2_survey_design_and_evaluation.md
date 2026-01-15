@@ -40,30 +40,90 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#1 - Understanding the high employee turnover rate in a large tech company`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The objective of this survey is to determine the primary factors driving high turnover among entry - and lower - level
+employees and to collect insights on potential changes that could enhance employee satisfaction and retention.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target Population: All current entry-level and lower-level employees of the company.
+
+Sampling Frame: The organization’s internal employee database containing updated records of active staff, including
+their departments, roles, and contact details.
+
+Sampling Units: Individual employees drawn from the target population.
+
+Observational Units: The survey responses submitted by each participating employee.
+
+Overall Sampling Strategy: A stratified random sampling approach based on department and job level to ensure balanced
+representation across different segments of the organization.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. How long have you worked in your current position at the company?
+A) Under 6 months
+B) 6–11 months
+C) 1–2 years
+D) Over 2 years
+
+2. Overall, how do you feel about your day-to-day work experience in this role?
+A) Very positive
+B) Mostly positive
+C) Mostly negative
+D) Very negative
+
+3. How clear and helpful is the guidance you receive from your direct manager?
+A) Extremely clear and helpful
+B) Generally clear and helpful
+C) Occasionally unclear or unhelpful
+D) Rarely clear or helpful
+
+4. Which factor has the greatest influence on whether you consider seeking another job?
+A) Pay and financial incentives
+B) Limited advancement opportunities
+C) Job demands or pressure
+D) Workplace environment
+
+5. To what extent does your current role make use of your professional skills?
+A) Fully
+B) Moderately
+C) Slightly
+D) Not at all
+
+6. How satisfied are you with your total compensation (salary + benefits)?
+A) Very satisfied
+B) Somewhat satisfied
+C) Somewhat dissatisfied
+D) Very dissatisfied
+
+7. How manageable do you find your workload and working hours?
+A) Very manageable
+B) Mostly manageable
+C) Somewhat difficult to manage
+D) Very difficult to manage
+
+8. How often do you feel your efforts are acknowledged by management?
+A) Very often
+B) Sometimes
+C) Rarely
+D) Never
+
+9. Which change would most improve your likelihood of staying with the company long-term? (Select one)
+A) Increased compensation
+B) Clear promotion and development paths
+C) More flexible scheduling or remote options
+D) Stronger leadership and support
+
+10. How likely are you to speak positively about this company as an employer?
+A) Very likely
+B) Likely
+C) Unlikely
+D) Very unlikely
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +131,107 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+The identification and description of the survey features for the 2018 General Social Survey on Giving, Volunteering
+and Participating (Cycle 33) conducted by Statistics Canada, based on available documentation and official sources
+are discussed below:
+
+1. Sample Type
+This survey employs a cross-sectional sample design using a stratified probability sampling framework based on
+provinces and Census Metropolitan Areas (CMAs). Data are collected from one randomly selected household member
+aged 15 years or older, and proxy interviews are not allowed.
+
+To address challenges in obtaining sufficient responses from volunteers, a rejective sampling strategy was implemented.
+After respondents were identified as volunteers or non-volunteers, all volunteers were assigned the long questionnaire,
+while non-volunteers were randomly split into two groups: one completed the long questionnaire and the other completed
+a shorter version.
+
+2. Sample Size
+The survey drew a field sample of roughly 50,000 units. Approximately 40,000 households received invitations to complete
+the online questionnaire, with an anticipated total of about 24,000 completed responses.
+
+3. Target Population
+The survey targeted all persons aged 15 years and older living in private households in the 10 provinces of Canada.
+It excluded full-time residents of institutions (people residing in institutions for more than six months).
+
+4. Sampling Frame
+
+The sampling frame integrates landline and mobile phone numbers obtained from the Census and other administrative sources
+with Statistics Canada’s dwelling frame. Each record consists of one or more telephone numbers linked to the same address,
+or a single number when an address cannot be identified. This approach was designed to improve coverage of households
+with telephone access.
+
+5. Survey Mode(s)
+Data were gathered directly from participants using two collection methods: a self-administered online questionnaire and
+computer-assisted telephone interviewing (CATI). Respondents were able to complete the survey in either English or
+French, and proxy responses were not allowed.
+
+6. Timeline
+Reference period: The 12 months preceding the interview.
+Data collection period: September 4 to December 28, 2018.
+Frequency: The survey is part of the General Social Survey Program, which is normally conducted every 5 years
+for this topic area.
+
+7. Response Rate
+The overall response rate was approximately 41.9 %.
+
+8. Weights
+- A person-level weight (WGHT_PER) was applied to make the survey results representative of Canadians aged 15 and older.
+- Additional bootstrap weights were generated to support design-based variance estimation.
+- Weights were further adjusted to align the income distribution by province with the 2017 Canadian Income Survey (CIS).
+
+9. Data Processing
+Data processing was carried out using Statistics Canada’s SSPE generalized processing system to produce consistent,
+high-quality outputs. Both automated and manual edits were applied at the micro and macro levels to ensure consistency,
+verify family relationships, and maintain proper questionnaire flow. Additionally, the CATI system conducted in-interview
+validity checks and edits.
+
+10. Cleaning, Imputation, etc.
+Imputation was applied to handle item-level or partial non-response. In most cases, missing values were replaced using
+donor records selected through a scoring function: the characteristics of the recipient record were compared with
+potential donors, and the donor with the highest score provided the replacement data. If multiple donors shared the
+highest score, one was chosen at random. When donor imputation was not possible, mean values from a pool of donors
+were used.
+The imputation process followed nine steps:
+1. Personal and family income
+2–4. Formal volunteering variables in the master file
+5–6. Informal volunteering variables in the master file
+7–9. Donation variables and solicitation methods in the master file
+For 2018, personal income was not collected directly through the survey. Instead, respondents’ data were linked to the
+2017 T1 Family File (T1FF). Family income was obtained directly for 81.7% of households, while missing data for the
+remainder were imputed.
+Overall, the GSS imputation procedure ensured that incomplete responses were filled using data from similar respondents,
+thereby increasing the number of usable survey records for analysis.
+
+11. Sources of Error
+The survey is subject to both sampling and non-sampling errors.
+- Sampling error: This occurs because the results are based on a sample rather than a full census. Bootstrap weights
+were employed to estimate the variability due to sampling.
+- Non-sampling error: Encompasses coverage errors, non-response bias, response inaccuracies, and processing mistakes.
+- Coverage error: Despite improvements to the sampling frame, some under- or over-coverage of the population may still
+exist.
+- Non-response bias: Mitigated through weighting adjustments using auxiliary information such as income and household
+composition.
+- Response and processing errors: Minimized via interviewer training, pre-testing of the questionnaire, and automated
+quality control procedures.
+
+
+12. Limitations, Known Biases, etc.
+The survey findings may be affected by non-sampling errors, including coverage errors, non-response, response
+inaccuracies, and processing mistakes.
+
+Coverage errors can arise when certain segments of the target population are excluded or underrepresented, such as
+households not included in the sampling frame.
+
+Non-response bias may persist even after applying weighting adjustments. For the 2018 GSS, such adjustments were made
+using auxiliary information, including income and household composition, to account for non-responding households.
+
+Additionally, the survey excludes residents of the territories and institutional populations, which limits the ability to
+generalize results to the entire national population.
+
+
+13. Links to Documentation and Additional Sources
+The documentation is available at this link: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234 
+
 ```
 
 ## Rubric
@@ -93,9 +253,9 @@ write your answer here
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] Create a branch called `assignment-2`.
-- [ ] Ensure that the repository is public.
-- [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
-- [ ] Verify that the link is accessible in a private browser window.
+- [x] Create a branch called `assignment-2`.
+- [x] Ensure that the repository is public.
+- [x] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
+- [x] Verify that the link is accessible in a private browser window.
 
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via the help channel in Slack. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
